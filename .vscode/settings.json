@@ -1,3 +1,21 @@
 {
-    "dart.flutterSdkPath": "/Users/marcos/Documents/SDKs/fvm/3.10.1"
+    "dart.flutterSdkPath": "/Users/marcos/Documents/SDKs/fvm/3.10.1",
+    "MicroPython.executeButton": [
+        {
+            "text": "▶",
+            "tooltip": "Run",
+            "alignment": "left",
+            "command": "extension.executeFile",
+            "priority": 3.5
+        }
+    ],
+    "MicroPython.syncButton": [
+        {
+            "text": "$(sync)",
+            "tooltip": "sync",
+            "alignment": "left",
+            "command": "extension.execute",
+            "priority": 4
+        }
+    ]
 }
